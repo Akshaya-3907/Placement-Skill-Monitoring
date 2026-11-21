@@ -1,0 +1,62 @@
+
+.student-list-page {
+  min-height: 100vh;
+  padding: 30px;
+  background: #f4f7fb;
+}
+
+.student-list-page h2 {
+  color: #172554;
+  font-weight: 700;
+}
+
+.student-list-page .card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+.student-list-page input,
+.student-list-page select {
+  padding: 11px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+}
+
+.student-list-page .table-responsive {
+  background: white;
+  padding: 15px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+.student-list-page table {
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+
+.student-list-page thead th {
+  background: #172554;
+  color: white;
+  padding: 14px;
+  white-space: nowrap;
+}
+
+.student-list-page tbody td {
+  padding: 13px;
+}
+
+.student-list-page tbody tr:hover {
+  background: #eff6ff;
+}
+
+.student-list-page button {
+  border-radius: 7px;
+}
+
+@media (max-width: 600px) {
+  .student-list-page {
+    padding: 15px;
+  }
+}
